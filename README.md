@@ -32,9 +32,9 @@ Screenshots from the real, unprompted Google Meet call used to verify Phase 7 en
 ![Final handover email](screenshots/final-handover-email.jpg)
 
 ## Results & Business Recommendations
-✅ Full pipeline live-tested end-to-end with a real meeting: transcript capture → structured summary → email delivery, all within under a minute of the call ending.
-✅ Net new infrastructure cost: ~$7.09/month (VPS) + cents-per-meeting in Claude API usage — no per-seat automation platform fees.
-✅ Output correctly separates signal from noise: in live testing it accurately reported "no financial/credit-relevant details discussed" rather than inventing content — the trait that matters most in a document analysts will actually rely on.
+- ✅ Full pipeline live-tested end-to-end with a real meeting: transcript capture → structured summary → email delivery, all within under a minute of the call ending.
+- ✅ Net new infrastructure cost: ~$7.09/month (VPS) + cents-per-meeting in Claude API usage — no per-seat automation platform fees.
+- ✅ Output correctly separates signal from noise: in live testing it accurately reported "no financial/credit-relevant details discussed" rather than inventing content — the trait that matters most in a document analysts will actually rely on.
 
 **Recommendations:**
 1. 🔗 Add a CRM sync (e.g. GoHighLevel) so handovers attach directly to the client record — contingent on confirming the client's plan includes API access.
