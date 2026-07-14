@@ -20,16 +20,16 @@ Built as an event-driven pipeline rather than scheduled polling — a webhook fi
 Screenshots from the real, unprompted Google Meet call used to verify Phase 7 end-to-end (2026-07-14) — not staged or simulated.
 
 **1. Fathom capturing the live call**
-![Fathom recorder in waiting room](screenshots/fathom-recorder-waiting-room.png)
+![Fathom recorder in waiting room](screenshots/fathom-recorder-waiting-room.jpg)
 
 **2. n8n pipeline executing on the real webhook**
-![n8n execution graph](screenshots/n8n-execution-graph.png)
+![n8n execution graph](screenshots/n8n-execution-graph.jpg)
 
 **3. Real execution timestamp, tied to the actual call**
-![n8n execution list](screenshots/n8n-execution-list.png)
+![n8n execution list](screenshots/n8n-execution-list.jpg)
 
 **4. The delivered handover email**
-![Final handover email](screenshots/final-handover-email.png)
+![Final handover email](screenshots/final-handover-email.jpg)
 
 ## Results & Business Recommendations
 ✅ Full pipeline live-tested end-to-end with a real meeting: transcript capture → structured summary → email delivery, all within under a minute of the call ending.
